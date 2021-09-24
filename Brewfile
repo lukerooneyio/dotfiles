@@ -1,7 +1,10 @@
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "moritzsternemann/apple-fonts"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Core application library for C
@@ -32,6 +35,8 @@ brew "vapoursynth"
 brew "mpv"
 # Internet file retriever
 brew "wget"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 # Stand alone ad blocker
 cask "adguard"
 # Collection of apps and services for photography, design, video, web, and UX
@@ -105,11 +110,7 @@ mas "Meta", id: 558317092
 mas "Motion", id: 434290957
 mas "Numbers", id: 409203825
 mas "Pixelmator Pro", id: 1289583905
-mas "Reeder", id: 1529448980
-mas "Scan Thing", id: 1556313108
 mas "Screens", id: 1224268771
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
-mas "Twitter", id: 1482454543
-mas "Ulysses", id: 1225570693
