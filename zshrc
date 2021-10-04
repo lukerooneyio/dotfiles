@@ -1,7 +1,6 @@
 echo 'Hello from .zshrc'
 
 # Set Variables
-
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 
@@ -12,6 +11,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 alias exa='exa -laFh --git'
 alias ls='exa -laFh --git'
 alias man=batman
+alias which='command -v'
 
 # Customize Prompts
 PROMPT='
@@ -26,3 +26,4 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 function mkcd() {
    mkdir -p "$@" && cd "$_";
 }
+
