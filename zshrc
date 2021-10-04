@@ -12,6 +12,7 @@ alias exa='exa -laFh --git'
 alias ls='exa -laFh --git'
 alias man=batman
 alias which='command -v'
+alias bbd='brew bundle dump --force --describe'
 
 # Customize Prompts
 PROMPT='
