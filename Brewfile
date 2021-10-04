@@ -27,12 +27,16 @@ brew "flux"
 brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Pager program similar to more
+brew "less"
 # Mac App Store command-line interface
 brew "mas"
 # Video processing framework with simplicity in mind
 brew "vapoursynth"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Internet file retriever
 brew "wget"
 # Bash scripts that integrate bat with various command-line tools
