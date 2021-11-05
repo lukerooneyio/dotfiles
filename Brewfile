@@ -1,8 +1,9 @@
+tap "buo/cask-upgrade"
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
-tap "moritzsternemann/apple-fonts"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -11,34 +12,50 @@ brew "bat"
 brew "glib"
 # Modern replacement for 'ls'
 brew "exa"
-# HTTP/2 C Library
-brew "nghttp2"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Image processing and image analysis library
+brew "leptonica"
 # Subtitle renderer for the ASS/SSA subtitle format
 brew "libass"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Lightweight scripting language for querying databases
 brew "flux"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Bootstrap GitHub SSH configuration
+brew "github-keygen"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Pager program similar to more
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# HTTP/2 C Library
+brew "nghttp2"
 # Video processing framework with simplicity in mind
 brew "vapoursynth"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Platform built on V8 to build network applications
+brew "node"
 # Internet file retriever
 brew "wget"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Stand alone ad blocker
@@ -47,26 +64,14 @@ cask "adguard"
 cask "adobe-creative-cloud"
 # Application launcher and productivity software
 cask "alfred"
-# Multi-track audio editor and recorder
-cask "audacity"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
 cask "bartender"
-# 3D creation suite
-cask "blender"
 # Hard disk backup and cloning utility
 cask "carbon-copy-cloner"
-# Block websites, games and applications
-cask "cold-turkey-blocker"
 # Downloads videos from different websites
 cask "downie"
-# Tool for using an iPad as a second display
-cask "duet"
-# Tool for organizing and renaming movies, TV shows, anime or music
-cask "filebot"
-# Git client focusing on productivity
-cask "gitkraken"
 # Automated organization
 cask "hazel"
 # Windows manager and desktop organizer
@@ -100,21 +105,17 @@ cask "screens-connect"
 cask "soundsource"
 # Control windows and applications right from your trackpad
 cask "swish"
-# Video communication and virtual meeting platform
-cask "zoom"
 mas "AutoMounter", id: 1160435653
 mas "BBEdit", id: 404009241
 mas "Compressor", id: 424390742
-mas "Dark Mode for Safari", id: 1397180934
 mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "HazeOver", id: 430798174
-mas "Magic", id: 1581223559
 mas "Meta", id: 558317092
 mas "Motion", id: 434290957
+mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 1224268771
-mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
