@@ -18,6 +18,7 @@ alias man=batman
 alias which='command -v'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias rm=trash
 
 # Customize Prompts
 PROMPT='
