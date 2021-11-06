@@ -2,6 +2,10 @@
 
 echo "\n<<< Starting MacOS Setup >>>\n"
 
+# close any system preference windows first
+osascript -e 'tell application "System Preferences" to quit'
+
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Desktop & Screen Saver
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

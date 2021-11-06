@@ -16,6 +16,9 @@
     - ~/Work
 
 - shell:
+  - command: ./setup_macos.zsh
+    stdout: true
+    stderr: true
   - command: ./setup_homebrew.zsh
     stdout: true
     stderr: true
