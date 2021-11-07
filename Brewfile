@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "teamookla/speedtest"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -36,6 +37,8 @@ brew "git-delta"
 brew "github-keygen"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Pager program similar to more
 brew "less"
 # Mac App Store command-line interface
@@ -58,12 +61,12 @@ brew "wget"
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
+# Ookla Speedtest
+brew "teamookla/speedtest/speedtest"
 # Stand alone ad blocker
 cask "adguard"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# Application launcher and productivity software
-cask "alfred"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
