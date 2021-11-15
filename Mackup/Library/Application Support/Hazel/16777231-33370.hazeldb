@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Contents</key>
+	<dict>
+		<key>.DS_Store</key>
+		<dict>
+			<key>File ID</key>
+			<string>736469</string>
+		</dict>
+		<key>.localized</key>
+		<dict>
+			<key>File ID</key>
+			<string>33371</string>
+		</dict>
+		<key>brewfile</key>
+		<dict>
+			<key>Date Matched</key>
+			<date>2021-11-15T22:26:52Z</date>
+			<key>File ID</key>
+			<string>1023667</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>screen-shot-2021-11-15-at-123601-pm.png</key>
+		<dict>
+			<key>Date Matched</key>
+			<date>2021-11-15T21:23:27Z</date>
+			<key>File ID</key>
+			<string>1001648</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>temporary</key>
+		<dict>
+			<key>Date Matched</key>
+			<date>2021-11-15T21:25:21Z</date>
+			<key>File ID</key>
+			<string>1007058</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>the-hustle-_o7qjn3kf8u.mp4</key>
+		<dict>
+			<key>Date Matched</key>
+			<date>2021-11-15T09:04:56Z</date>
+			<key>File ID</key>
+			<string>960270</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+	</dict>
+	<key>File Map</key>
+	<dict>
+		<key>1001648</key>
+		<dict>
+			<key>Name</key>
+			<string>screen-shot-2021-11-15-at-123601-pm.png</string>
+		</dict>
+		<key>1007058</key>
+		<dict>
+			<key>Name</key>
+			<string>temporary</string>
+		</dict>
+		<key>1023667</key>
+		<dict>
+			<key>Name</key>
+			<string>brewfile</string>
+		</dict>
+		<key>33371</key>
+		<dict>
+			<key>Name</key>
+			<string>.localized</string>
+		</dict>
+		<key>736469</key>
+		<dict>
+			<key>Name</key>
+			<string>.DS_Store</string>
+		</dict>
+		<key>960270</key>
+		<dict>
+			<key>Name</key>
+			<string>the-hustle-_o7qjn3kf8u.mp4</string>
+		</dict>
+	</dict>
+	<key>Last Poll Time</key>
+	<date>2021-11-15T22:40:18Z</date>
+	<key>Version</key>
+	<integer>3</integer>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Email</key>
+	<string>account@lukerooney.io</string>
+	<key>Name</key>
+	<string>Luke Rooney</string>
+	<key>Product Id</key>
+	<string>Hazel5.0</string>
+	<key>Seats</key>
+	<string>1</string>
+	<key>Signature</key>
+	<data>
+	l1oobLkgqKTVUjGJ2S+6rpp7vnqMu2vw10qLpvVVksYMf0+HGEVSW/RRtstHeAY/z0Va
+	1kL3XDUnJ1jiowcEzXYFeeWxyhX0jb3fdxv9uqTcDOU44TNHkUSg/G55NNVo64VTeYzi
+	GS7rOkFZo91GYfG3IQavyN9h3xep5rEk4Ok=
+	</data>
+	<key>Transaction Id</key>
+	<string>84PQDZDHHHFT</string>
+</dict>
+</plist>
