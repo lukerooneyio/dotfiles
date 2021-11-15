@@ -102,6 +102,8 @@ cask "openemu"
 cask "post-haste"
 # Tool to organize photo libraries
 cask "powerphotos"
+# Automatically hides or quits apps after periods of inactivity
+cask "quitter"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Remote desktop software
