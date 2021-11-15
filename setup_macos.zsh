@@ -5,6 +5,10 @@ echo "\n<<< Starting MacOS Setup >>>\n"
 # close any system preference windows first
 osascript -e 'tell application "System Preferences" to quit'
 
+# Create Template Folder in Downloads Folder
+cd ~/Downloads
+mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/screenshots
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Desktop & Screen Saver
@@ -14,29 +18,32 @@ osascript -e 'tell application "System Preferences" to quit'
 defaults -currentHost write com.apple.screensaver idleTime -int 0
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# Dock
+# Dock & Menu Bar
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# System Preferences > Dock > Automatically hide and show the Dock:
+# System Preferences > Dock & Menu Bar > Automatically hide and show the Dock:
 defaults write com.apple.dock autohide -bool true
 
-# System Preferences > Dock > Automatically hide and show the Dock: (delay)
+# System Preferences > Dock & Menu Bar > Automatically hide and show the Menu Bar:
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
+# System Preferences > Dock & Menu Bar > Automatically hide and show the Dock: (delay)
 defaults write com.apple.dock autohide-delay -float 0
 
-# System Preferences > Dock > Automatically hide and show the Dock: (duration)
+# System Preferences > Dock & Menu Bar > Automatically hide and show the Dock: (duration)
 defaults write com.apple.dock autohide-time-modifier -float 0.5
 killall Dock
 
-# System Preferences > Dock > Show indicators for open applications
+# System Preferences > Dock & Menu Bar > Show indicators for open applications
 defaults write com.apple.dock show-process-indicators -bool false
 
-# System Preferences > Dock > Minimize windows into application icon
+# System Preferences > Dock & Menu Bar > Minimize windows into application icon
 defaults write com.apple.ddisock minimize-to-application -bool true
 
-# System Preferences > Dock > Show recent applications in Dock
+# System Preferences > Dock & Menu Bar > Show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
-# System Preferences > Dock > Animate opening applications
+# System Preferences > Dock & Menu Bar > Animate opening applications
 defaults write com.apple.dock launchanim -bool false
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -85,7 +92,7 @@ defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 # Finder > Preferences > Show warning before changing an extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Finder > Preferences > Show wraning before removing from iCloud Drive
+# Finder > Preferences > Show warning before removing from iCloud Drive
 defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 
 # Finder > View > As List
@@ -129,9 +136,6 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 
 # Completely Disable Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
-
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
 
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
