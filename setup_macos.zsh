@@ -2,13 +2,13 @@
 
 echo "\n<<< Starting MacOS Setup >>>\n"
 
-# close any system preference windows first
-osascript -e 'tell application "System Preferences" to quit'
-
 # Create Template Folder in Downloads Folder
 cd ~/Downloads
 mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/screenshots
 
+# Create Project Folder in Documents Folder
+cd ~/Documents
+mkdir -p projects.nosync/2021 projects.nosync/2022
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Desktop & Screen Saver

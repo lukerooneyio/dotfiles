@@ -43,6 +43,8 @@ brew "httpie"
 brew "jq"
 # Pager program similar to more
 brew "less"
+# Keep your Mac's application settings in sync
+brew "mackup"
 # Mac App Store command-line interface
 brew "mas"
 # Video processing framework with simplicity in mind
