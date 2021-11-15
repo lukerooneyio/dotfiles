@@ -45,16 +45,18 @@ brew "jq"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-# HTTP/2 C Library
-brew "nghttp2"
 # Video processing framework with simplicity in mind
 brew "vapoursynth"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # Node version management
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# HTTP/2 C Library
+brew "nghttp2"
 # Platform built on V8 to build network applications
 brew "node"
 # Internet file retriever
@@ -67,8 +69,6 @@ brew "eth-p/software/bat-extras"
 brew "teamookla/speedtest/speedtest"
 # Stand alone ad blocker
 cask "adguard"
-# Collection of apps and services for photography, design, video, web, and UX
-cask "adobe-creative-cloud"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
@@ -83,8 +83,6 @@ cask "hazel"
 cask "hazeover"
 # Free and open-source media player
 cask "iina"
-# Software for iLok devices
-cask "ilok-license-manager"
 # Keyboard customizer
 cask "karabiner-elements"
 # Cable-free audio router
@@ -112,6 +110,8 @@ cask "screens-connect"
 cask "soundsource"
 # Control windows and applications right from your trackpad
 cask "swish"
+# Open-source code editor
+cask "visual-studio-code"
 mas "AutoMounter", id: 1160435653
 mas "BBEdit", id: 404009241
 mas "Compressor", id: 424390742
