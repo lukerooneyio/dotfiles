@@ -31,7 +31,7 @@ killall Dock
 defaults write com.apple.dock show-process-indicators -bool false
 
 # System Preferences > Dock > Minimize windows into application icon
-defaults write com.apple.dock minimize-to-application -bool true
+defaults write com.apple.ddisock minimize-to-application -bool true
 
 # System Preferences > Dock > Show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
