@@ -36,3 +36,5 @@ function mkcd() {
    mkdir -p "$@" && cd "$_";
 }
 
+# Fixes Homebrew error when installing on M1 Mac
+export PATH=/opt/homebrew/bin:$PATH

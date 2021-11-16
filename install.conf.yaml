@@ -9,12 +9,11 @@
     ~/.zshenv:
     ~/.gitconfig:
     ~/.mackup.cfg:
+      create: true
+      path: backup/.mackup.cfg
     ~/.config/bat:
       create: true
       path: config/bat
-
-- create:
-    - ~/Work
 
 - shell:
     - command: ./setup_homebrew.zsh
