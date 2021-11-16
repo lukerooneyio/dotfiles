@@ -171,3 +171,8 @@ defaults write com.apple.SafariTechnologyPreview com.apple.Safari.ContentPageGro
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
 
+# Finish macOS Setup
+killall Finder
+killall Dock
+echo "\n<<< macOS Setup Complete.
+    A logout or restart might be necessary. >>>\n"
