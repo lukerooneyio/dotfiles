@@ -9,6 +9,11 @@
 			<key>File ID</key>
 			<string>736469</string>
 		</dict>
+		<key>.DownieTemporaryFolder</key>
+		<dict>
+			<key>File ID</key>
+			<string>1798077</string>
+		</dict>
 		<key>.localized</key>
 		<dict>
 			<key>File ID</key>
@@ -45,6 +50,11 @@
 			<key>Name</key>
 			<string>6t47ncdnfzw41.jpg</string>
 		</dict>
+		<key>1798077</key>
+		<dict>
+			<key>Name</key>
+			<string>.DownieTemporaryFolder</string>
+		</dict>
 		<key>33371</key>
 		<dict>
 			<key>Name</key>
@@ -57,7 +67,7 @@
 		</dict>
 	</dict>
 	<key>Last Poll Time</key>
-	<date>2021-11-17T08:09:24Z</date>
+	<date>2021-11-17T18:41:42Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>
