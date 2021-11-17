@@ -23,24 +23,6 @@
 			<key>Predicted Process Time</key>
 			<real>63113904000</real>
 		</dict>
-		<key>customdock.mobileconfig</key>
-		<dict>
-			<key>Date Matched</key>
-			<date>2021-11-17T07:32:09Z</date>
-			<key>File ID</key>
-			<string>1791050</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-		<key>macos.txt</key>
-		<dict>
-			<key>Date Matched</key>
-			<date>2021-11-17T06:49:07Z</date>
-			<key>File ID</key>
-			<string>1691550</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
 		<key>temporary</key>
 		<dict>
 			<key>Date Matched</key>
@@ -63,16 +45,6 @@
 			<key>Name</key>
 			<string>6t47ncdnfzw41.jpg</string>
 		</dict>
-		<key>1693729</key>
-		<dict>
-			<key>Name</key>
-			<string>macos.txt</string>
-		</dict>
-		<key>1791050</key>
-		<dict>
-			<key>Name</key>
-			<string>customdock.mobileconfig</string>
-		</dict>
 		<key>33371</key>
 		<dict>
 			<key>Name</key>
@@ -85,7 +57,7 @@
 		</dict>
 	</dict>
 	<key>Last Poll Time</key>
-	<date>2021-11-17T07:32:09Z</date>
+	<date>2021-11-17T08:09:24Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>

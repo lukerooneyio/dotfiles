@@ -49,8 +49,6 @@ brew "mackup"
 brew "mas"
 # Video processing framework with simplicity in mind
 brew "vapoursynth"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # Node version management
@@ -63,6 +61,8 @@ brew "nghttp2"
 brew "node"
 # Internet file retriever
 brew "wget"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
