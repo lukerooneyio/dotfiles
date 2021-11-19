@@ -14,7 +14,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>18702C32-5F83-434E-92D7-E6613D26F9E0</string>
+			<string>05AC20F2-C590-4270-B693-3D7B276E6551</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>autohide</key>
@@ -74,6 +74,20 @@
 						<dict>
 							<key>_CFURLString</key>
 							<string>/System/Applications/Messages.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/System/Applications/Mail.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
@@ -219,7 +233,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>33138ABB-AE7A-4F57-AFE0-39BB7E8EB303</string>
+	<string>1A70D132-2823-4624-9F3E-51B785D90D09</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

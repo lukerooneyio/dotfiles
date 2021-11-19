@@ -79,6 +79,14 @@ cask "bartender"
 cask "carbon-copy-cloner"
 # Downloads videos from different websites
 cask "downie"
+# Serif font "New York" by Apple
+cask "font-new-york"
+# Compact variant of "San Francisco" by Apple
+cask "font-sf-compact"
+# Monospaced variant of "San Francisco" by Apple
+cask "font-sf-mono"
+# Sans-serif variant of "San Francisco" by Apple
+cask "font-sf-pro"
 # Automated organization
 cask "hazel"
 # Windows manager and desktop organizer
