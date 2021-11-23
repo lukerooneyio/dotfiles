@@ -14,7 +14,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>05AC20F2-C590-4270-B693-3D7B276E6551</string>
+			<string>B68300AE-3676-4418-BE20-DEFB56BF6706</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>autohide</key>
@@ -87,6 +87,20 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
+							<string>/System/Applications/Music.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
 							<string>/System/Applications/Mail.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
@@ -115,20 +129,6 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/System/Applications/Photos.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
 							<string>/System/Applications/Notes.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
@@ -143,49 +143,21 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
+							<string>/System/Applications/Photos.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
 							<string>/Applications/Things3.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/System/Applications/Music.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/Applications/Pixelmator Pro.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/Applications/Final Cut Pro.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
@@ -233,7 +205,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1A70D132-2823-4624-9F3E-51B785D90D09</string>
+	<string>1BBFF906-FA6B-4D12-A290-EAF39978F0CC</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

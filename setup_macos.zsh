@@ -8,7 +8,7 @@ mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/scre
 
 # Create Project Folder in Documents Folder
 cd ~/Documents
-mkdir -p projects.nosync/2021 projects.nosync/2022
+mkdir -p projects.nosync/2021 projects.nosync/2022 projects.nosync/project-files
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
@@ -243,6 +243,9 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 # Finish macOS Setup
 killall Finder
 killall Dock
+
+# Restore Preferences
+mackup restore
 
 open /System/Library/PreferencePanes/Profiles.prefPane ~/.dotfiles/custom-dock.mobileconfig
 
