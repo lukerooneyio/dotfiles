@@ -2,18 +2,6 @@
 
 echo "\n<<< Starting MacOS Setup >>>\n"
 
-# Ask for the administrator password upfront
-sudo -v
-
-# Create Template Folder in Downloads Folder
-cd ~/Downloads
-mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/screenshots
-
-# Create Project Folder in Documents Folder
-cd ~/Documents
-mkdir -p projects.nosync/2021 projects.nosync/2022 projects.nosync/project-files
-SetFile -a E /Users/lukerooney/Documents/projects.nosync
-
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
@@ -240,6 +228,15 @@ defaults write com.apple.screencapture type -string "png"
 # Sort Activity Monitor results by CPU usage
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
+
+# Create Template Folder in Downloads Folder
+cd ~/Downloads
+mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/screenshots
+
+# Create Project Folder in Documents Folder
+cd ~/Documents
+mkdir -p projects.nosync/2021 projects.nosync/2022 projects.nosync/project-files
+SetFile -a E /Users/lukerooney/Documents/projects.nosync
 
 # Finish macOS Setup
 killall Finder

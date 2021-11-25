@@ -2,8 +2,9 @@ echo 'Hello from .zshrc'
 
 # Set Variables
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
+export DOTFILES="$HOME/.dotfiles"
+export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
