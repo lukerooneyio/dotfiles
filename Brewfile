@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "nrlquaker/createzap"
 tap "teamookla/speedtest"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
@@ -87,10 +88,12 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 # Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
+# Browse, install and purchase effects and plugins from a huge catalog
+cask "fxfactory"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Automated organization
 cask "hazel"
-# Windows manager and desktop organizer
-cask "hazeover"
 # Free and open-source media player
 cask "iina"
 # Keyboard customizer
@@ -110,6 +113,8 @@ cask "openemu"
 cask "post-haste"
 # Tool to organize photo libraries
 cask "powerphotos"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
 # Automatically hides or quits apps after periods of inactivity
 cask "quitter"
 # Control your tools with a few keystrokes
@@ -120,6 +125,8 @@ cask "screens-connect"
 cask "soundsource"
 # Control windows and applications right from your trackpad
 cask "swish"
+# Automatically synchronize video and audio via timecode
+cask "tentacle-sync-studio"
 # Open-source code editor
 cask "visual-studio-code"
 mas "AutoMounter", id: 1160435653

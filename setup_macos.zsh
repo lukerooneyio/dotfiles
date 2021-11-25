@@ -2,6 +2,9 @@
 
 echo "\n<<< Starting MacOS Setup >>>\n"
 
+# Ask for the administrator password upfront
+sudo -v
+
 # Create Template Folder in Downloads Folder
 cd ~/Downloads
 mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/screenshots
@@ -14,9 +17,6 @@ SetFile -a E /Users/lukerooney/Documents/projects.nosync
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
-
-# Ask for the administrator password upfront
-sudo -v
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # App Store
@@ -46,6 +46,9 @@ defaults write com.apple.commerce AutoUpdate -bool true
 
 # System Preferences > Desktop & Screen Saver > Start after: Never
 defaults -currentHost write com.apple.screensaver idleTime -int 0
+
+# Don't reopen apps on restart
+defaults write com.apple.loginwindow LoginwindowLaunchesRelaunchApps -bool false
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Dock & Menu Bar
@@ -88,6 +91,7 @@ defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 
 # Finder > View > As List
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+sudo find / -name ".DS_Store"  -exec rm {} \;
 
 # Finder > View > Show Path Bar
 defaults write com.apple.finder ShowPathbar -bool true
@@ -134,10 +138,6 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 # Expand print panel by default
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
-
-# Use list view in all Finder windows by default
-# Four-letter codes for the other view modes: `icnv`, `clmv`, `glyv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 # Show the ~/Library folder
 chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
