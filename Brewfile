@@ -70,8 +70,6 @@ brew "zsh"
 brew "eth-p/software/bat-extras"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
-# Stand alone ad blocker
-cask "adguard"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
@@ -88,8 +86,6 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 # Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
-# Browse, install and purchase effects and plugins from a huge catalog
-cask "fxfactory"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Automated organization
