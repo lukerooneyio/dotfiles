@@ -123,6 +123,13 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
+# Expand the following File Info panes: “General”, “Open with”, and “Sharing & Permissions”
+defaults write com.apple.finder FXInfoPanesExpanded -dict \
+  General -bool true \
+  OpenWith -bool true \
+  Privileges -bool true;ok
+
+
 # Expand print panel by default
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
@@ -155,6 +162,16 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Mail
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# running "Copy email addresses as 'foo@example.com' instead of 'Foo Bar <foo@example.com>' in Mail.app"
+defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false;ok
+
+# running "Disable inline attachments (just show the icons)"
+defaults write com.apple.mail DisableInlineAttachmentViewing -bool true;ok
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mission Control
@@ -237,6 +254,9 @@ mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/scre
 cd ~/Documents
 mkdir -p projects.nosync/2021 projects.nosync/2022 projects.nosync/project-files
 SetFile -a E /Users/lukerooney/Documents/projects.nosync
+
+# Hide Adobe Folder
+chflags hidden ~/Documents/Adobe
 
 # Finish macOS Setup
 killall Finder
