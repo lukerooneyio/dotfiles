@@ -70,6 +70,8 @@ brew "zsh"
 brew "eth-p/software/bat-extras"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
@@ -86,6 +88,8 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 # Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
+# Browse, install and purchase effects and plugins from a huge catalog
+cask "fxfactory"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Automated organization
@@ -139,3 +143,4 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 1224268771
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
+mas "Wipr", id: 1320666476
