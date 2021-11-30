@@ -72,6 +72,8 @@ brew "eth-p/software/bat-extras"
 brew "teamookla/speedtest/speedtest"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Menu bar tool to limit maximum charging percentage
+cask "aldente"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
