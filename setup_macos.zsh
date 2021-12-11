@@ -45,9 +45,6 @@ defaults write com.apple.loginwindow LoginwindowLaunchesRelaunchApps -bool false
 # System Preferences > Dock & Menu Bar > Automatically hide and show the Dock:
 defaults write com.apple.dock autohide -bool true
 
-# System Preferences > Dock & Menu Bar > Automatically hide and show the Menu Bar:
-defaults write NSGlobalDomain _HIHideMenuBar -bool true
-
 # System Preferences > Dock & Menu Bar > Automatically hide and show the Dock: (delay)
 defaults write com.apple.dock autohide-delay -float 0
 
