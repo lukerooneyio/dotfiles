@@ -249,7 +249,7 @@ mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/scre
 
 # Create Project Folder in Documents Folder
 cd ~/Documents
-mkdir -p projects.nosync/2021 projects.nosync/2022 projects.nosync/project-files
+mkdir -p projects.nosync/2021/personal projects.nosync/2021/work projects.nosync/2022/personal projects.nosync/2022/work projects.nosync/project-files
 SetFile -a E /Users/lukerooney/Documents/projects.nosync
 
 # Hide Adobe Folder

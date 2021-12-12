@@ -110,8 +110,6 @@ cask "macmediakeyforwarder"
 cask "mediahuman-audio-converter"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
-# Retro video game emulation
-cask "openemu"
 cask "post-haste"
 # Tool to organize photo libraries
 cask "powerphotos"
@@ -137,10 +135,12 @@ mas "Compressor", id: 424390742
 mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "HazeOver", id: 430798174
+mas "Keynote", id: 409183694
 mas "Meta", id: 558317092
 mas "Motion", id: 434290957
 mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 1224268771
 mas "The Unarchiver", id: 425424353
