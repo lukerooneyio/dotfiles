@@ -11,10 +11,52 @@
 			<key>Predicted Process Time</key>
 			<real>63113904000</real>
 		</dict>
+		<key>GarageBand.app</key>
+		<dict>
+			<key>File ID</key>
+			<string>30084</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>Hedge.app</key>
+		<dict>
+			<key>File ID</key>
+			<string>1336152</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>HedgeForMac-1102.dmg</key>
+		<dict>
+			<key>File ID</key>
+			<string>1430312</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>ParaShoot.pkg</key>
+		<dict>
+			<key>File ID</key>
+			<string>1341746</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>Recovered files</key>
+		<dict>
+			<key>File ID</key>
+			<string>1563570</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
 		<key>Screen Shot 2021-12-10 at 3.26.39 PM.png</key>
 		<dict>
 			<key>File ID</key>
 			<string>992277</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>iMovie.app</key>
+		<dict>
+			<key>File ID</key>
+			<string>67668</string>
 			<key>Predicted Process Time</key>
 			<real>63113904000</real>
 		</dict>
@@ -28,10 +70,40 @@
 	</dict>
 	<key>File Map</key>
 	<dict>
+		<key>1336152</key>
+		<dict>
+			<key>Name</key>
+			<string>Hedge.app</string>
+		</dict>
+		<key>1341746</key>
+		<dict>
+			<key>Name</key>
+			<string>ParaShoot.pkg</string>
+		</dict>
+		<key>1430312</key>
+		<dict>
+			<key>Name</key>
+			<string>HedgeForMac-1102.dmg</string>
+		</dict>
+		<key>1563570</key>
+		<dict>
+			<key>Name</key>
+			<string>Recovered files</string>
+		</dict>
 		<key>285485</key>
 		<dict>
 			<key>Name</key>
 			<string>setup_macos.sh</string>
+		</dict>
+		<key>30084</key>
+		<dict>
+			<key>Name</key>
+			<string>GarageBand.app</string>
+		</dict>
+		<key>67668</key>
+		<dict>
+			<key>Name</key>
+			<string>iMovie.app</string>
 		</dict>
 		<key>984225</key>
 		<dict>
@@ -45,7 +117,7 @@
 		</dict>
 	</dict>
 	<key>Last Poll Time</key>
-	<date>2021-12-10T23:33:51Z</date>
+	<date>2021-12-12T23:52:50Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>
