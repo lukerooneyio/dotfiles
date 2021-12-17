@@ -3,11 +3,109 @@
 <plist version="1.0">
 <dict>
 	<key>Contents</key>
-	<dict/>
+	<dict>
+		<key>.DS_Store</key>
+		<dict>
+			<key>File ID</key>
+			<string>2271984</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>Raycast 2021-11-23 13.30.35.rayconfig</key>
+		<dict>
+			<key>File ID</key>
+			<string>422743</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>apple-music_logo.png</key>
+		<dict>
+			<key>File ID</key>
+			<string>422768</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>apple-music_love-current-track.applescript</key>
+		<dict>
+			<key>File ID</key>
+			<string>1308567</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>apple-music_shuffle.applescript</key>
+		<dict>
+			<key>File ID</key>
+			<string>1308800</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>luke-rooney_timecard_the-knife_2021-12-11.pdf</key>
+		<dict>
+			<key>File ID</key>
+			<string>2271783</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>sample-color.swift</key>
+		<dict>
+			<key>File ID</key>
+			<string>422740</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+		<key>speedtest-logo.png</key>
+		<dict>
+			<key>File ID</key>
+			<string>422760</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
+	</dict>
 	<key>File Map</key>
-	<dict/>
+	<dict>
+		<key>1308567</key>
+		<dict>
+			<key>Name</key>
+			<string>apple-music_love-current-track.applescript</string>
+		</dict>
+		<key>1308800</key>
+		<dict>
+			<key>Name</key>
+			<string>apple-music_shuffle.applescript</string>
+		</dict>
+		<key>2271783</key>
+		<dict>
+			<key>Name</key>
+			<string>luke-rooney_timecard_the-knife_2021-12-11.pdf</string>
+		</dict>
+		<key>2271984</key>
+		<dict>
+			<key>Name</key>
+			<string>.DS_Store</string>
+		</dict>
+		<key>422740</key>
+		<dict>
+			<key>Name</key>
+			<string>sample-color.swift</string>
+		</dict>
+		<key>422743</key>
+		<dict>
+			<key>Name</key>
+			<string>Raycast 2021-11-23 13.30.35.rayconfig</string>
+		</dict>
+		<key>422760</key>
+		<dict>
+			<key>Name</key>
+			<string>speedtest-logo.png</string>
+		</dict>
+		<key>422768</key>
+		<dict>
+			<key>Name</key>
+			<string>apple-music_logo.png</string>
+		</dict>
+	</dict>
 	<key>Last Poll Time</key>
-	<date>2021-12-12T23:52:50Z</date>
+	<date>2021-12-17T06:02:07Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>

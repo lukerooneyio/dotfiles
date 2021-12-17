@@ -26,8 +26,6 @@ brew "leptonica"
 brew "libass"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Lightweight scripting language for querying databases
-brew "flux"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -82,6 +80,8 @@ cask "bartender"
 cask "carbon-copy-cloner"
 # Downloads videos from different websites
 cask "downie"
+# Screen color temperature controller
+cask "flux"
 # Serif font "New York" by Apple
 cask "font-new-york"
 # Compact variant of "San Francisco" by Apple
