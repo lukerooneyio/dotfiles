@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>Contents</key>
-	<dict/>
+	<dict>
+		<key>.DS_Store</key>
+		<dict>
+			<key>File ID</key>
+			<string>2478762</string>
+		</dict>
+	</dict>
 	<key>File Map</key>
-	<dict/>
+	<dict>
+		<key>2478762</key>
+		<dict>
+			<key>Name</key>
+			<string>.DS_Store</string>
+		</dict>
+	</dict>
 	<key>Last Poll Time</key>
-	<date>2021-12-12T23:53:21Z</date>
+	<date>2021-12-18T08:25:05Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>

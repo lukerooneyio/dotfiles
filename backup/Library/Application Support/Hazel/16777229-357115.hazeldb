@@ -3,27 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Contents</key>
-	<dict>
-		<key>chicory--a-colorful-tale---launch-trailer---nintendo-switch.mp4</key>
-		<dict>
-			<key>Date Matched</key>
-			<date>2021-12-16T04:59:48Z</date>
-			<key>File ID</key>
-			<string>2281972</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-	</dict>
+	<dict/>
 	<key>File Map</key>
-	<dict>
-		<key>2281972</key>
-		<dict>
-			<key>Name</key>
-			<string>chicory--a-colorful-tale---launch-trailer---nintendo-switch.mp4</string>
-		</dict>
-	</dict>
+	<dict/>
 	<key>Last Poll Time</key>
-	<date>2021-12-16T22:45:38Z</date>
+	<date>2021-12-23T17:37:14Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>

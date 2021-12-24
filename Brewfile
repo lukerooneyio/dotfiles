@@ -108,6 +108,8 @@ cask "lunar"
 cask "macmediakeyforwarder"
 # Audio converter
 cask "mediahuman-audio-converter"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
 cask "post-haste"
