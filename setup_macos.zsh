@@ -160,6 +160,9 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+# Set Globe Key to Dictation Shortcut
+defaults write AppleDictationAutoEnable -bool true
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mail
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

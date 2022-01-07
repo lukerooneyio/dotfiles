@@ -70,8 +70,6 @@ brew "eth-p/software/bat-extras"
 brew "teamookla/speedtest/speedtest"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# Menu bar tool to limit maximum charging percentage
-cask "aldente"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
@@ -92,6 +90,8 @@ cask "font-sf-mono"
 cask "font-sf-pro"
 # Browse, install and purchase effects and plugins from a huge catalog
 cask "fxfactory"
+# Web browser
+cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Automated organization
@@ -134,6 +134,7 @@ cask "visual-studio-code"
 mas "AutoMounter", id: 1160435653
 mas "BBEdit", id: 404009241
 mas "Compressor", id: 424390742
+mas "Craft", id: 1487937127
 mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "HazeOver", id: 430798174
