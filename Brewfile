@@ -117,8 +117,6 @@ cask "post-haste"
 cask "powerphotos"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
-# Automatically hides or quits apps after periods of inactivity
-cask "quitter"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Remote desktop software
@@ -131,6 +129,7 @@ cask "swish"
 cask "tentacle-sync-studio"
 # Open-source code editor
 cask "visual-studio-code"
+mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "BBEdit", id: 404009241
 mas "Compressor", id: 424390742
