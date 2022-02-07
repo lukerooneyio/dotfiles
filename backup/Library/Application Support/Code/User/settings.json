@@ -1,28 +1,32 @@
 {
-    "workbench.colorCustomizations": {
-    "terminal.background":"#1D2021",
-    "terminal.foreground":"#f3d1a1",
-    "terminalCursor.background":"#A89984",
-    "terminalCursor.foreground":"#A89984",
-    "terminal.ansiBlack":"#1D2021",
-    "terminal.ansiBlue":"#0D6678",
-    "terminal.ansiBrightBlack":"#665C54",
-    "terminal.ansiBrightBlue":"#0D6678",
-    "terminal.ansiBrightCyan":"#8BA59B",
-    "terminal.ansiBrightGreen":"#95C085",
-    "terminal.ansiBrightMagenta":"#8F4673",
-    "terminal.ansiBrightRed":"#FB543F",
-    "terminal.ansiBrightWhite":"#FDF4C1",
-    "terminal.ansiBrightYellow":"#FAC03B",
-    "terminal.ansiCyan":"#8BA59B",
-    "terminal.ansiGreen":"#95C085",
-    "terminal.ansiMagenta":"#8F4673",
-    "terminal.ansiRed":"#FB543F",
-    "terminal.ansiWhite":"#A89984",
-    "terminal.ansiYellow":"#FAC03B"
+  "git.enableSmartCommit" : true,
+  "editor.accessibilitySupport" : "off",
+  "explorer.confirmDelete" : false,
+  "diffEditor.ignoreTrimWhitespace" : false,
+  "workbench.colorCustomizations" : {
+    "terminal.ansiWhite" : "#A89984",
+    "terminal.ansiBrightCyan" : "#8BA59B",
+    "terminalCursor.background" : "#A89984",
+    "terminal.ansiYellow" : "#FAC03B",
+    "terminal.ansiCyan" : "#8BA59B",
+    "terminal.ansiBrightYellow" : "#FAC03B",
+    "terminal.ansiBrightGreen" : "#95C085",
+    "terminal.ansiBrightMagenta" : "#8F4673",
+    "terminalCursor.foreground" : "#A89984",
+    "terminal.background" : "#1D2021",
+    "terminal.ansiBrightBlack" : "#665C54",
+    "terminal.ansiMagenta" : "#8F4673",
+    "terminal.ansiBrightRed" : "#FB543F",
+    "terminal.ansiRed" : "#FB543F",
+    "terminal.foreground" : "#f3d1a1",
+    "terminal.ansiGreen" : "#95C085",
+    "terminal.ansiBlue" : "#0D6678",
+    "terminal.ansiBrightBlue" : "#0D6678",
+    "terminal.ansiBrightWhite" : "#FDF4C1",
+    "terminal.ansiBlack" : "#1D2021"
   },
-  "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "explorer.confirmDelete": false,
-  "diffEditor.ignoreTrimWhitespace": false
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  }
 }

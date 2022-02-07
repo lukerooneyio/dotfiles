@@ -78,6 +78,8 @@ cask "bartender"
 cask "carbon-copy-cloner"
 # Downloads videos from different websites
 cask "downie"
+# Reimagine your terminal
+cask "fig"
 # Screen color temperature controller
 cask "flux"
 # Serif font "New York" by Apple
@@ -121,16 +123,24 @@ cask "qbittorrent"
 cask "raycast"
 # Remote desktop software
 cask "screens-connect"
+# Block your own access to distracting websites
+cask "selfcontrol"
 # Sound and audio controller
 cask "soundsource"
+# Productivity tool to launch everything
+cask "spotter"
 # Control windows and applications right from your trackpad
 cask "swish"
 # Automatically synchronize video and audio via timecode
 cask "tentacle-sync-studio"
 # Open-source code editor
 cask "visual-studio-code"
-mas "Amphetamine", id: 937984704
+# Simple menu bar app to download YouTube movies
+cask "youtube-downloader"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "AutoMounter", id: 1160435653
+mas "Aware", id: 1082170746
 mas "BBEdit", id: 404009241
 mas "Compressor", id: 424390742
 mas "Craft", id: 1487937127
@@ -138,8 +148,11 @@ mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "HazeOver", id: 430798174
 mas "Keynote", id: 409183694
+mas "Logic Pro", id: 634148309
+mas "Looking Glass", id: 1602004436
 mas "Meta", id: 558317092
 mas "Motion", id: 434290957
+mas "MusicHarbor", id: 1440405750
 mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541

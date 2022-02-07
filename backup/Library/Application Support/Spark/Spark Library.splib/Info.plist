@@ -2,13 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Contents</key>
-	<dict/>
-	<key>File Map</key>
-	<dict/>
-	<key>Last Poll Time</key>
-	<date>2022-01-15T01:01:16Z</date>
+	<key>UUID</key>
+	<string>AB227293-6640-411B-A20D-6F14F01DE7C8</string>
 	<key>Version</key>
-	<integer>3</integer>
+	<integer>513</integer>
 </dict>
 </plist>
