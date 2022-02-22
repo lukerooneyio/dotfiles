@@ -70,6 +70,8 @@ brew "eth-p/software/bat-extras"
 brew "teamookla/speedtest/speedtest"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Enable Windows-like alt-tab
+cask "alt-tab"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
@@ -119,6 +121,8 @@ cask "post-haste"
 cask "powerphotos"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
+# Automatically hides or quits apps after periods of inactivity
+cask "quitter"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Remote desktop software
@@ -135,8 +139,6 @@ cask "swish"
 cask "tentacle-sync-studio"
 # Open-source code editor
 cask "visual-studio-code"
-# Simple menu bar app to download YouTube movies
-cask "youtube-downloader"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "AutoMounter", id: 1160435653
@@ -148,7 +150,6 @@ mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "HazeOver", id: 430798174
 mas "Keynote", id: 409183694
-mas "Logic Pro", id: 634148309
 mas "Looking Glass", id: 1602004436
 mas "Meta", id: 558317092
 mas "Motion", id: 434290957
