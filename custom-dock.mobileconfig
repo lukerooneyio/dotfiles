@@ -7,49 +7,21 @@
 		<dict>
 			<key>PayloadDisplayName</key>
 			<string>Dock</string>
-			<key>PayloadEnabled</key>
-			<true/>
 			<key>PayloadIdentifier</key>
-			<string>dockmaster.studentdock</string>
+			<string>com.github.erikberglund.ProfileCreator.6C3AD7A8-2959-4AFC-BC47-059305958029.com.apple.dock.04BFAAAC-A5AE-465F-BF04-C8946F7CF28B</string>
+			<key>PayloadOrganization</key>
+			<string></string>
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>47ED8CB1-E704-4B6E-83A9-F04B6E08436B</string>
+			<string>04BFAAAC-A5AE-465F-BF04-C8946F7CF28B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>autohide</key>
 			<true/>
-			<key>contents-immutable</key>
-			<false/>
-			<key>largesize</key>
-			<integer>128</integer>
 			<key>launchanim</key>
 			<false/>
-			<key>launchanim-immutable</key>
-			<false/>
 			<key>magnification</key>
-			<false/>
-			<key>magnify-immutable</key>
-			<false/>
-			<key>magsize-immutable</key>
-			<false/>
-			<key>mineffect</key>
-			<string>genie</string>
-			<key>mineffect-immutable</key>
-			<false/>
-			<key>minimize-to-application</key>
-			<false/>
-			<key>minimize-to-application-immutable</key>
-			<false/>
-			<key>orientation</key>
-			<string>bottom</string>
-			<key>position-immutable</key>
-			<false/>
-			<key>show-process-indicators</key>
-			<false/>
-			<key>show-process-indicators-immutable</key>
-			<false/>
-			<key>size-immutable</key>
 			<false/>
 			<key>static-apps</key>
 			<array>
@@ -63,6 +35,12 @@
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
+						<key>file-label</key>
+						<string>Safari</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Safari</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -77,6 +55,12 @@
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
+						<key>file-label</key>
+						<string>Messages</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Messages</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -91,6 +75,12 @@
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
+						<key>file-label</key>
+						<string>Music</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Music</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -101,10 +91,16 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/System/Applications/Podcasts.app</string>
+							<string>/Applications/Overcast.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
+						<key>file-label</key>
+						<string>Overcast</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Overcast</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -115,10 +111,36 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/System/Applications/Calendar.app</string>
+							<string>/System/Applications/Photos.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
+						<key>file-label</key>
+						<string>Photos</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Photos</string>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/System/Applications/Maps.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+						<key>file-label</key>
+						<string>Maps</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Maps</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -133,6 +155,12 @@
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
+						<key>file-label</key>
+						<string>Craft</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Craft</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -148,9 +176,18 @@
 						<key>arrangement</key>
 						<integer>2</integer>
 						<key>displayas</key>
-						<integer>1</integer>
-						<key>home directory relative</key>
-						<string>~/Downloads</string>
+						<integer>2</integer>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Users/lukerooney/Downloads</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+						<key>file-label</key>
+						<string>Downloads</string>
+						<key>file-type</key>
+						<integer>3</integer>
 						<key>label</key>
 						<string>Downloads</string>
 						<key>showas</key>
@@ -160,24 +197,22 @@
 					<string>directory-tile</string>
 				</dict>
 			</array>
-			<key>tilesize</key>
-			<integer>68</integer>
+			<key>wvous-tl-corner</key>
+			<integer>10</integer>
 		</dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>This dock profile was generated using Dock Master from https://techion.com.au.</string>
 	<key>PayloadDisplayName</key>
-	<string>Student Dock</string>
+	<string>save</string>
 	<key>PayloadIdentifier</key>
-	<string>studentdock</string>
-	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<string>com.github.erikberglund.ProfileCreator.6C3AD7A8-2959-4AFC-BC47-059305958029</string>
+	<key>PayloadOrganization</key>
+	<string>ProfileCreator</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1EB934FB-0BB8-47C9-B58C-0D27516F2B68</string>
+	<string>6C3AD7A8-2959-4AFC-BC47-059305958029</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
