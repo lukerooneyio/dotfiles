@@ -70,14 +70,14 @@ brew "eth-p/software/bat-extras"
 brew "teamookla/speedtest/speedtest"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# Enable Windows-like alt-tab
-cask "alt-tab"
 # Records audio from any application
 cask "audio-hijack"
 # Menu bar icon organizer
 cask "bartender"
 # Hard disk backup and cloning utility
 cask "carbon-copy-cloner"
+# Screen capturing tool
+cask "cleanshot"
 # Downloads videos from different websites
 cask "downie"
 # Reimagine your terminal
@@ -94,10 +94,6 @@ cask "font-sf-mono"
 cask "font-sf-pro"
 # Browse, install and purchase effects and plugins from a huge catalog
 cask "fxfactory"
-# Web browser
-cask "google-chrome"
-# Client for the Google Drive storage service
-cask "google-drive"
 # Automated organization
 cask "hazel"
 # Free and open-source media player
@@ -112,8 +108,6 @@ cask "lunar"
 cask "macmediakeyforwarder"
 # Audio converter
 cask "mediahuman-audio-converter"
-# Provides updates to various Microsoft products
-cask "microsoft-auto-update"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
 cask "post-haste"
@@ -127,28 +121,25 @@ cask "quitter"
 cask "raycast"
 # Remote desktop software
 cask "screens-connect"
-# Block your own access to distracting websites
-cask "selfcontrol"
 # Sound and audio controller
 cask "soundsource"
-# Productivity tool to launch everything
-cask "spotter"
 # Control windows and applications right from your trackpad
 cask "swish"
 # Automatically synchronize video and audio via timecode
 cask "tentacle-sync-studio"
 # Open-source code editor
 cask "visual-studio-code"
-# Video communication and virtual meeting platform
-cask "zoom"
+mas "AdBlock Pro", id: 1018301773
 mas "AutoMounter", id: 1160435653
-mas "Aware", id: 1082170746
 mas "BBEdit", id: 404009241
 mas "Compressor", id: 424390742
 mas "Craft", id: 1487937127
 mas "Disk Speed Test", id: 425264550
+mas "Equinox", id: 1591510203
 mas "Final Cut Pro", id: 424389933
+mas "Focus for YouTube", id: 1514703160
 mas "HazeOver", id: 430798174
+mas "Hush", id: 1544743900
 mas "Keynote", id: 409183694
 mas "Looking Glass", id: 1602004436
 mas "Meta", id: 558317092
@@ -156,9 +147,13 @@ mas "Motion", id: 434290957
 mas "MusicHarbor", id: 1440405750
 mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+mas "One Thing", id: 1604176982
+mas "Pandan", id: 1569600264
 mas "Pixelmator Pro", id: 1289583905
+mas "Pure Paste", id: 1611378436
 mas "Screens", id: 1224268771
+mas "Shazam", id: 897118787
+mas "Spark", id: 1176895641
+mas "StopTheMadness", id: 1376402589
 mas "The Unarchiver", id: 425424353
-mas "Things", id: 904280696
-mas "Wipr", id: 1320666476
+mas "ToothFairy", id: 1191449274

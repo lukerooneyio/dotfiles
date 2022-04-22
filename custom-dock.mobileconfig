@@ -14,7 +14,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>40833E51-21F5-47C9-A733-808F533C921B</string>
+			<string>47ED8CB1-E704-4B6E-83A9-F04B6E08436B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>autohide</key>
@@ -101,7 +101,7 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/System/Applications/Mail.app</string>
+							<string>/System/Applications/Podcasts.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
@@ -116,34 +116,6 @@
 						<dict>
 							<key>_CFURLString</key>
 							<string>/System/Applications/Calendar.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/System/Applications/Photos.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/Applications/Things3.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
@@ -176,14 +148,9 @@
 						<key>arrangement</key>
 						<integer>2</integer>
 						<key>displayas</key>
-						<integer>2</integer>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/Users/lukerooney/Downloads</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
+						<integer>1</integer>
+						<key>home directory relative</key>
+						<string>~/Downloads</string>
 						<key>label</key>
 						<string>Downloads</string>
 						<key>showas</key>
@@ -210,7 +177,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>9BAE449A-FA14-4A03-9BF4-39184D6BA4FC</string>
+	<string>1EB934FB-0BB8-47C9-B58C-0D27516F2B68</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
