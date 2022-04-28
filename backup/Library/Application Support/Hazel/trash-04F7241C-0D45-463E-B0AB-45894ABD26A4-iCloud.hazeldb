@@ -3,49 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Contents</key>
-	<dict>
-		<key>.DS_Store</key>
-		<dict>
-			<key>File ID</key>
-			<string>11698019</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-		<key>Audio Recording 2022-03-26 at 8.02.43 PM.wav</key>
-		<dict>
-			<key>File ID</key>
-			<string>11545063</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-		<key>Audio Recording 2022-03-26 at 8.06.58 PM.wav</key>
-		<dict>
-			<key>File ID</key>
-			<string>11545489</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-	</dict>
+	<dict/>
 	<key>File Map</key>
-	<dict>
-		<key>11545063</key>
-		<dict>
-			<key>Name</key>
-			<string>Audio Recording 2022-03-26 at 8.02.43 PM.wav</string>
-		</dict>
-		<key>11545489</key>
-		<dict>
-			<key>Name</key>
-			<string>Audio Recording 2022-03-26 at 8.06.58 PM.wav</string>
-		</dict>
-		<key>11698019</key>
-		<dict>
-			<key>Name</key>
-			<string>.DS_Store</string>
-		</dict>
-	</dict>
+	<dict/>
 	<key>Last Poll Time</key>
-	<date>2022-03-30T20:58:03Z</date>
+	<date>2022-04-28T06:10:58Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>

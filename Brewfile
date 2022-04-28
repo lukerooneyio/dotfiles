@@ -102,8 +102,6 @@ cask "iina"
 cask "karabiner-elements"
 # Cable-free audio router
 cask "loopback"
-# Adaptive brightness for external displays
-cask "lunar"
 # Media key forwarder for iTunes and Spotify
 cask "macmediakeyforwarder"
 # Audio converter
@@ -156,4 +154,3 @@ mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
 mas "StopTheMadness", id: 1376402589
 mas "The Unarchiver", id: 425424353
-mas "ToothFairy", id: 1191449274
