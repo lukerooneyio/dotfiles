@@ -1,8 +1,3 @@
-
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the start of this file.
-[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
-#### END FIG ENV VARIABLES ####
 echo 'Hello from .zshrc'
 
 # Set Variables
@@ -44,7 +39,3 @@ function mkcd() {
 
 # Fixes Homebrew error when installing on M1 Mac
 export PATH=/opt/homebrew/bin:$PATH
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the end of this file.
-[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-#### END FIG ENV VARIABLES ####

@@ -80,8 +80,6 @@ cask "carbon-copy-cloner"
 cask "cleanshot"
 # Downloads videos from different websites
 cask "downie"
-# Reimagine your terminal
-cask "fig"
 # Screen color temperature controller
 cask "flux"
 # Serif font "New York" by Apple
@@ -121,6 +119,8 @@ cask "raycast"
 cask "screens-connect"
 # Sound and audio controller
 cask "soundsource"
+# Video game digital distribution service
+cask "steam"
 # Control windows and applications right from your trackpad
 cask "swish"
 # Automatically synchronize video and audio via timecode
@@ -148,6 +148,7 @@ mas "Numbers", id: 409203825
 mas "One Thing", id: 1604176982
 mas "Pandan", id: 1569600264
 mas "Pixelmator Pro", id: 1289583905
+mas "Playlisty", id: 1459275972
 mas "Pure Paste", id: 1611378436
 mas "Screens", id: 1224268771
 mas "Shazam", id: 897118787

@@ -16,21 +16,7 @@
                 },
                 "rules": []
             },
-            "devices": [
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": false,
-                        "is_pointing_device": true,
-                        "product_id": 9,
-                        "vendor_id": 9992
-                    },
-                    "ignore": true,
-                    "manipulate_caps_lock_led": false,
-                    "simple_modifications": []
-                }
-            ],
+            "devices": [],
             "fn_function_keys": [
                 {
                     "from": {
@@ -58,7 +44,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "f3"
+                            "apple_vendor_keyboard_key_code": "mission_control"
                         }
                     ]
                 },
@@ -68,7 +54,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "f4"
+                            "apple_vendor_keyboard_key_code": "spotlight"
                         }
                     ]
                 },
@@ -78,7 +64,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "f5"
+                            "consumer_key_code": "dictation"
                         }
                     ]
                 },
