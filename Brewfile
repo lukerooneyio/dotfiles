@@ -94,8 +94,8 @@ cask "font-sf-pro"
 cask "fxfactory"
 # Automated organization
 cask "hazel"
-# Free and open-source media player
-cask "iina"
+# Game client for itch.io
+cask "itch"
 # Keyboard customizer
 cask "karabiner-elements"
 # Cable-free audio router
@@ -128,6 +128,7 @@ cask "tentacle-sync-studio"
 # Open-source code editor
 cask "visual-studio-code"
 mas "AdBlock Pro", id: 1018301773
+mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
 mas "BBEdit", id: 404009241
 mas "Compressor", id: 424390742
@@ -138,6 +139,7 @@ mas "Final Cut Pro", id: 424389933
 mas "Focus for YouTube", id: 1514703160
 mas "HazeOver", id: 430798174
 mas "Hush", id: 1544743900
+mas "Infuse", id: 1136220934
 mas "Keynote", id: 409183694
 mas "Looking Glass", id: 1602004436
 mas "Meta", id: 558317092
