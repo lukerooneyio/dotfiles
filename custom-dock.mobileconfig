@@ -8,20 +8,24 @@
 			<key>PayloadDisplayName</key>
 			<string>Dock</string>
 			<key>PayloadIdentifier</key>
-			<string>com.github.erikberglund.ProfileCreator.6C3AD7A8-2959-4AFC-BC47-059305958029.com.apple.dock.04BFAAAC-A5AE-465F-BF04-C8946F7CF28B</string>
+			<string>com.github.erikberglund.ProfileCreator.B9965D33-B286-4003-8CF1-5B00441F977D.com.apple.dock.A2701310-7E60-4E5D-A111-ADCF7FBBBB1F</string>
 			<key>PayloadOrganization</key>
 			<string></string>
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>04BFAAAC-A5AE-465F-BF04-C8946F7CF28B</string>
+			<string>A2701310-7E60-4E5D-A111-ADCF7FBBBB1F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>autohide</key>
 			<true/>
 			<key>launchanim</key>
 			<false/>
-			<key>magnification</key>
+			<key>orientation</key>
+			<string>bottom</string>
+			<key>show-process-indicators</key>
+			<false/>
+			<key>show-recents</key>
 			<false/>
 			<key>static-apps</key>
 			<array>
@@ -41,26 +45,6 @@
 						<integer>1</integer>
 						<key>label</key>
 						<string>Safari</string>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/System/Applications/Messages.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-						<key>file-label</key>
-						<string>Messages</string>
-						<key>file-type</key>
-						<integer>1</integer>
-						<key>label</key>
-						<string>Messages</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -111,26 +95,6 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/System/Applications/Photos.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-						<key>file-label</key>
-						<string>Photos</string>
-						<key>file-type</key>
-						<integer>1</integer>
-						<key>label</key>
-						<string>Photos</string>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
 							<string>/System/Applications/Maps.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
@@ -141,6 +105,26 @@
 						<integer>1</integer>
 						<key>label</key>
 						<string>Maps</string>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/System/Applications/Photos.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+						<key>file-label</key>
+						<string>Photos</string>
+						<key>file-type</key>
+						<integer>1</integer>
+						<key>label</key>
+						<string>Photos</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -166,8 +150,6 @@
 					<string>file-tile</string>
 				</dict>
 			</array>
-			<key>static-only</key>
-			<true/>
 			<key>static-others</key>
 			<array>
 				<dict>
@@ -177,17 +159,12 @@
 						<integer>2</integer>
 						<key>displayas</key>
 						<integer>2</integer>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/Users/lukerooney/Downloads</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
 						<key>file-label</key>
 						<string>Downloads</string>
 						<key>file-type</key>
 						<integer>3</integer>
+						<key>home directory relative</key>
+						<string>~/Downloads</string>
 						<key>label</key>
 						<string>Downloads</string>
 						<key>showas</key>
@@ -202,17 +179,17 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>save</string>
+	<string>dock</string>
 	<key>PayloadIdentifier</key>
-	<string>com.github.erikberglund.ProfileCreator.6C3AD7A8-2959-4AFC-BC47-059305958029</string>
+	<string>com.github.erikberglund.ProfileCreator.B9965D33-B286-4003-8CF1-5B00441F977D</string>
 	<key>PayloadOrganization</key>
 	<string>ProfileCreator</string>
 	<key>PayloadScope</key>
-	<string>System</string>
+	<string>User</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6C3AD7A8-2959-4AFC-BC47-059305958029</string>
+	<string>B9965D33-B286-4003-8CF1-5B00441F977D</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
