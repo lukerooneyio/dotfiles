@@ -1,3 +1,4 @@
+tap "brettferdosi/tap"
 tap "buo/cask-upgrade"
 tap "eth-p/software"
 tap "homebrew/bundle"
@@ -90,6 +91,8 @@ cask "font-sf-mono"
 cask "font-sf-pro"
 # Browse, install and purchase effects and plugins from a huge catalog
 cask "fxfactory"
+# macOS status bar app for managing the system grayscale display filter
+cask "grayscale"
 # Automated organization
 cask "hazel"
 # Free and open-source media player

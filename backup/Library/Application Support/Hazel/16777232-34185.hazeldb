@@ -14,42 +14,6 @@
 			<key>File ID</key>
 			<string>34186</string>
 		</dict>
-		<key>6286c9a9539939083e37faf5.pdf</key>
-		<dict>
-			<key>Date Matched</key>
-			<date>2022-05-19T22:51:20Z</date>
-			<key>File ID</key>
-			<string>2998230</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-		<key>delta-receipt-lax-geg-1651381306806.pdf</key>
-		<dict>
-			<key>Date Matched</key>
-			<date>2022-05-18T16:08:28Z</date>
-			<key>File ID</key>
-			<string>2904196</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-		<key>fpupdate.dat</key>
-		<dict>
-			<key>Date Matched</key>
-			<date>2022-05-22T00:09:08Z</date>
-			<key>File ID</key>
-			<string>3136730</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-		<key>photos</key>
-		<dict>
-			<key>Date Matched</key>
-			<date>2022-05-22T00:10:02Z</date>
-			<key>File ID</key>
-			<string>3137123</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
 		<key>temporary</key>
 		<dict>
 			<key>Date Matched</key>
@@ -59,33 +23,27 @@
 			<key>Predicted Process Time</key>
 			<real>63113904000</real>
 		</dict>
+		<key>untitled-folder</key>
+		<dict>
+			<key>Date Matched</key>
+			<date>2022-05-26T21:13:43Z</date>
+			<key>File ID</key>
+			<string>3535177</string>
+			<key>Predicted Process Time</key>
+			<real>63113904000</real>
+		</dict>
 	</dict>
 	<key>File Map</key>
 	<dict>
-		<key>2904196</key>
-		<dict>
-			<key>Name</key>
-			<string>delta-receipt-lax-geg-1651381306806.pdf</string>
-		</dict>
-		<key>2998230</key>
-		<dict>
-			<key>Name</key>
-			<string>6286c9a9539939083e37faf5.pdf</string>
-		</dict>
-		<key>3136730</key>
-		<dict>
-			<key>Name</key>
-			<string>fpupdate.dat</string>
-		</dict>
-		<key>3137123</key>
-		<dict>
-			<key>Name</key>
-			<string>photos</string>
-		</dict>
 		<key>34186</key>
 		<dict>
 			<key>Name</key>
 			<string>.localized</string>
+		</dict>
+		<key>3535177</key>
+		<dict>
+			<key>Name</key>
+			<string>untitled-folder</string>
 		</dict>
 		<key>696053</key>
 		<dict>
@@ -99,7 +57,7 @@
 		</dict>
 	</dict>
 	<key>Last Poll Time</key>
-	<date>2022-05-22T00:37:38Z</date>
+	<date>2022-05-26T21:13:43Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>
