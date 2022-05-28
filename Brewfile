@@ -120,6 +120,8 @@ cask "quitter"
 cask "raycast"
 # Remote desktop software
 cask "screens-connect"
+# File sharing network
+cask "soulseek"
 # Sound and audio controller
 cask "soundsource"
 # Video game digital distribution service
