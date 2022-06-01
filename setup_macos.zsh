@@ -202,6 +202,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadTwoFin
 
 # Prevent Safari from opening ‘safe’ files automatically after downloading
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+defaults write ~/Library/Preferences/com.apple.Safari AutoOpenSafeDownloads -bool FALSE
 
 # Set Safari’s home page to `Favorites Page`
 defaults write com.apple.Safari HomePage -string "favorites://"

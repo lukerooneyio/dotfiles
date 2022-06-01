@@ -112,6 +112,8 @@ cask "omnidisksweeper"
 cask "post-haste"
 # Tool to organize photo libraries
 cask "powerphotos"
+# Create standard or customized configuration profiles
+cask "profilecreator"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
 # Automatically hides or quits apps after periods of inactivity
