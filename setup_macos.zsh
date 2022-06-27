@@ -78,12 +78,6 @@ defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 sudo find / -name ".DS_Store"  -exec rm {} \;
 
-# Finder > View > Show Path Bar
-defaults write com.apple.finder ShowPathbar -bool true
-
-# Finder > Show Status Bar
-defaults write com.apple.finder ShowStatusBar -bool true
-
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 

@@ -75,46 +75,6 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Overcast.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-						<key>file-label</key>
-						<string>Overcast</string>
-						<key>file-type</key>
-						<integer>1</integer>
-						<key>label</key>
-						<string>Overcast</string>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/System/Applications/Maps.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-						<key>file-label</key>
-						<string>Maps</string>
-						<key>file-type</key>
-						<integer>1</integer>
-						<key>label</key>
-						<string>Maps</string>
-					</dict>
-					<key>tile-type</key>
-					<string>file-tile</string>
-				</dict>
-				<dict>
-					<key>tile-data</key>
-					<dict>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
 							<string>/System/Applications/Photos.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
@@ -135,16 +95,16 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Craft.app</string>
+							<string>/Applications/FSNotes.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
 						<key>file-label</key>
-						<string>Craft</string>
+						<string>FSNotes</string>
 						<key>file-type</key>
 						<integer>1</integer>
 						<key>label</key>
-						<string>Craft</string>
+						<string>FSNotes</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
@@ -179,7 +139,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>dock</string>
+	<string>Custom Dock</string>
 	<key>PayloadIdentifier</key>
 	<string>com.github.erikberglund.ProfileCreator.B9965D33-B286-4003-8CF1-5B00441F977D</string>
 	<key>PayloadOrganization</key>

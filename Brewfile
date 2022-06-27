@@ -89,6 +89,8 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 # Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
+# Notes manager
+cask "fsnotes"
 # Browse, install and purchase effects and plugins from a huge catalog
 cask "fxfactory"
 # macOS status bar app for managing the system grayscale display filter
@@ -134,6 +136,8 @@ cask "swish"
 cask "tentacle-sync-studio"
 # Open-source code editor
 cask "visual-studio-code"
+# Compatibility layer to run Windows applications
+cask "wine-stable"
 mas "AdBlock Pro", id: 1018301773
 mas "Amphetamine", id: 937984704
 mas "AutoMounter", id: 1160435653
@@ -155,6 +159,7 @@ mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "One Thing", id: 1604176982
 mas "Pandan", id: 1569600264
+mas "Panorama Stitcher Mini", id: 1062350226
 mas "Pixelmator Pro", id: 1289583905
 mas "Playlisty", id: 1459275972
 mas "Pure Paste", id: 1611378436
