@@ -111,6 +111,8 @@ cask "macmediakeyforwarder"
 cask "mediahuman-audio-converter"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
+# Retro video game emulation
+cask "openemu"
 cask "post-haste"
 # Tool to organize photo libraries
 cask "powerphotos"
@@ -139,32 +141,25 @@ cask "visual-studio-code"
 # Compatibility layer to run Windows applications
 cask "wine-stable"
 mas "AdBlock Pro", id: 1018301773
-mas "Amphetamine", id: 937984704
-mas "AutoMounter", id: 1160435653
 mas "BBEdit", id: 404009241
-mas "Compressor", id: 424390742
-mas "Craft", id: 1487937127
 mas "Disk Speed Test", id: 425264550
 mas "Equinox", id: 1591510203
 mas "Final Cut Pro", id: 424389933
 mas "Focus for YouTube", id: 1514703160
 mas "HazeOver", id: 430798174
 mas "Hush", id: 1544743900
-mas "Keynote", id: 409183694
 mas "Looking Glass", id: 1602004436
 mas "Meta", id: 558317092
-mas "Motion", id: 434290957
 mas "MusicHarbor", id: 1440405750
 mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
-mas "One Thing", id: 1604176982
+mas "Ochi", id: 1603024803
 mas "Pandan", id: 1569600264
 mas "Panorama Stitcher Mini", id: 1062350226
 mas "Pixelmator Pro", id: 1289583905
-mas "Playlisty", id: 1459275972
 mas "Pure Paste", id: 1611378436
 mas "Screens", id: 1224268771
 mas "Shazam", id: 897118787
-mas "Spark", id: 1176895641
 mas "StopTheMadness", id: 1376402589
 mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
