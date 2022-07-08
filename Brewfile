@@ -153,13 +153,11 @@ mas "Meta", id: 558317092
 mas "MusicHarbor", id: 1440405750
 mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
-mas "Ochi", id: 1603024803
 mas "Pandan", id: 1569600264
 mas "Panorama Stitcher Mini", id: 1062350226
 mas "Pixelmator Pro", id: 1289583905
 mas "Pure Paste", id: 1611378436
 mas "Screens", id: 1224268771
-mas "Shazam", id: 897118787
 mas "StopTheMadness", id: 1376402589
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
