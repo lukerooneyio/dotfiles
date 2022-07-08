@@ -9,11 +9,6 @@
 			<key>File ID</key>
 			<string>986502</string>
 		</dict>
-		<key>.DownieTemporaryFolder</key>
-		<dict>
-			<key>File ID</key>
-			<string>5842005</string>
-		</dict>
 		<key>.localized</key>
 		<dict>
 			<key>File ID</key>
@@ -25,13 +20,6 @@
 			<date>2022-07-08T21:25:38Z</date>
 			<key>File ID</key>
 			<string>5848234</string>
-			<key>Predicted Process Time</key>
-			<real>63113904000</real>
-		</dict>
-		<key>Hot Take- Travel Tripod Ball Head Reassembly.downiepart</key>
-		<dict>
-			<key>File ID</key>
-			<string>5842436</string>
 			<key>Predicted Process Time</key>
 			<real>63113904000</real>
 		</dict>
@@ -71,16 +59,6 @@
 			<key>Name</key>
 			<string>syd</string>
 		</dict>
-		<key>5842005</key>
-		<dict>
-			<key>Name</key>
-			<string>.DownieTemporaryFolder</string>
-		</dict>
-		<key>5842436</key>
-		<dict>
-			<key>Name</key>
-			<string>Hot Take- Travel Tripod Ball Head Reassembly.downiepart</string>
-		</dict>
 		<key>5848234</key>
 		<dict>
 			<key>Name</key>
@@ -93,7 +71,7 @@
 		</dict>
 	</dict>
 	<key>Last Poll Time</key>
-	<date>2022-07-08T21:25:38Z</date>
+	<date>2022-07-08T21:29:48Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>
