@@ -35,16 +35,16 @@
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Safari.app</string>
+							<string>/Applications/Arc.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
 						<key>file-label</key>
-						<string>Safari</string>
+						<string>Arc</string>
 						<key>file-type</key>
 						<integer>1</integer>
 						<key>label</key>
-						<string>Safari</string>
+						<string>Arc</string>
 					</dict>
 					<key>tile-type</key>
 					<string>file-tile</string>
