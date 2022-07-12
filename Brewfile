@@ -71,8 +71,6 @@ brew "eth-p/software/bat-extras"
 brew "teamookla/speedtest/speedtest"
 # Records audio from any application
 cask "audio-hijack"
-# Menu bar icon organizer
-cask "bartender"
 # Hard disk backup and cloning utility
 cask "carbon-copy-cloner"
 # Screen capturing tool
@@ -97,6 +95,8 @@ cask "fxfactory"
 cask "grayscale"
 # Automated organization
 cask "hazel"
+# Utility to hide menu bar items
+cask "hiddenbar"
 # Free and open-source media player
 cask "iina"
 # Game client for itch.io
