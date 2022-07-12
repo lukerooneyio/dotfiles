@@ -27,6 +27,8 @@ brew "leptonica"
 brew "libass"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg@4"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -49,6 +51,8 @@ brew "mackup"
 brew "mas"
 # Video processing framework with simplicity in mind
 brew "vapoursynth"
+# Fork of youtube-dl with additional features and fixes
+brew "yt-dlp"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # Node version management
@@ -75,8 +79,6 @@ cask "audio-hijack"
 cask "carbon-copy-cloner"
 # Screen capturing tool
 cask "cleanshot"
-# Downloads videos from different websites
-cask "downie"
 # Screen color temperature controller
 cask "flux"
 # Serif font "New York" by Apple
@@ -142,6 +144,7 @@ cask "visual-studio-code"
 cask "wine-stable"
 mas "AdBlock Pro", id: 1018301773
 mas "BBEdit", id: 404009241
+mas "Compressor", id: 424390742
 mas "Disk Speed Test", id: 425264550
 mas "Equinox", id: 1591510203
 mas "Final Cut Pro", id: 424389933

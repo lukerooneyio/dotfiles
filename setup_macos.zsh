@@ -235,7 +235,7 @@ defaults write com.apple.CrashReporter DialogType -string "none"
 defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Save screenshots to the downloads folder
-defaults write com.apple.screencapture location -string "${HOME}/Downloads/temporary/screenshots"
+defaults write com.apple.screencapture location -string "${HOME}/Downloads/Temporary/Screenshots"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
@@ -246,7 +246,7 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 # Create Template Folder in Downloads Folder
 cd ~/Downloads
-mkdir -p temporary/audio-hijack temporary/downie temporary/import temporary/screenshots
+mkdir -p Temporary/Audio Converter Temporary/Screenshots Temporary/Torrents
 
 # Create Project Folder in Documents Folder
 cd ~/Documents
